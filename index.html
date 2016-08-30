@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<head>
+	<title>Google Homepage Recreated</title>
+
+	<style>
+	body, html {
+		font-size:11pt;
+		font-family:Heletica, arial, sans-serif;
+	}
+	
+	.nav {
+		float:right;
+	}
+
+	.nav-btns {
+		color:#757575;
+		text-decoration:none;
+		padding:4px;
+	}
+
+	a:hover {
+		text-decoration:underline;
+	}
+
+	a:visited {
+		color:#609;
+	}
+
+	center {
+		display:block;
+		text-align: -webkit-center;
+	}
+
+	#logo {
+		padding-top:180px;
+		margin:20px;
+	}
+
+	#text-box input {
+		height:100%;
+		width:100%;
+		position:relative;
+		background-color:transparent
+		font: 16px arial,sans-serif;
+		vertical-align: top;
+		padding:6px 9px 0;
+		margin:0px;
+		height:38px;
+		max-width:484px;
+		outline:none;
+	}
+
+	#search-btns input[type="submit"] {
+		height:36px;
+		line-height:27px;
+		font-size:13px;
+		font-weight:bold;
+		color:#757575;
+		padding:10 16px;
+		background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+		border: 1px solid #f2f2f2;
+		margin:28px 4px;
+		min-width:54px;
+		text-align: center;
+		cursor:default;
+	}
+
+	#footer {
+		bottom:0;
+		display:block;
+		width:100%;
+		position:absolute;
+		background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    min-width: 980px;
+	}
+
+	.foot-left {
+		float:left;
+		padding:5px;
+		margin-left:10px;
+		text-decoration: none;
+	}
+
+	.foot-right {
+		float:right;
+		padding:5px;
+		margin-right:10px;
+		text-decoration: none;
+	}
+
+	</style>
+</head>
+
+	<body>
+		
+		<div class="nav">
+			<a class="nav-btns" href="https://mail.google.com/mail/?tab=wm&amp;authuser=0">Mail</a>
+			<a class="nav-btns" href="https://www.google.com/imghp?hl=en&amp;tab=wi&amp;authuser=0&amp;ei=jabFV7epHsLPeOD0gKAP&amp;ved=0EKouCBYoAQ">Images</a>
+		</div>
+		
+		<center>
+			<div id="logo">
+				<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" >
+			</div>
+
+			<div id="text-box">
+				<input type="text" role="combobox">
+			</div>
+
+			<div id="search-btns">
+				<input value="Google Search" aria-label="Google Search" type="submit">
+				<input value="I'm Feeling Lucky" aria-label="I'm Feeling Lucky" type="submit">
+			</div>
+		</center>
+
+		<footer>
+			<div id="footer">
+			<a class="foot-left" href="">Advertising</a>
+			<a class="foot-left" href="">Business</a>
+			<a class="foot-left" href="">About</a>
+
+			<a class="foot-right" href="">Privacy</a>
+			<a class="foot-right" href="">Terms</a>
+			<a class="foot-right" href="">Settings</a>
+			</div>
+		</footer id="footer">
+	</body>
+</html>
